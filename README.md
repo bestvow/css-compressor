@@ -1,12 +1,16 @@
 # CSS Compressor
 
- Clean and [Compact | Minify] your CSS files
+ Clean and [Compact | Minify] your CSS files , comb the order of css attribute .
 
  Actually you also can Beautify your css file with option`{format: 'beautify'}`
 
 ## Thanks
 
 This extension completely depend on [clean-css](https://www.npmjs.com/package/clean-css) and the author is [jakubpawlowicz](https://github.com/jakubpawlowicz/clean-css) , thanks  nice man!
+
+Screenshot tools [snipaste](https://www.snipaste.com/)
+
+icon [icons8](https://icons8.com/)
 
 ## Usage
 
