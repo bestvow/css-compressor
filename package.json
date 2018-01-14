@@ -4,7 +4,7 @@
   "description": "Minify or Compact your CSS files",
   "version": "0.0.1",
   "publisher": "bestvow",
-  "icon": "icon.png",
+  "icon": "./images/icon.png",
   "engines": {
     "vscode": "^1.19.0"
   },

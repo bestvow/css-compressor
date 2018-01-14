@@ -33,7 +33,7 @@ reference for [here](https://github.com/jakubpawlowicz/clean-css#formatting-opti
 
   result
 
-  ![](./images/compact.png)
+  ![](https://github.com/bestvow/css-compressor/blob/master/images/compact.png?raw=true)
 
 - beautify output
 
@@ -45,7 +45,7 @@ reference for [here](https://github.com/jakubpawlowicz/clean-css#formatting-opti
 
   result
 
-  ![](./images/beautify.png)
+  ![](https://github.com/bestvow/css-compressor/blob/master/images/beautify.png?raw=true)
 
   yes , you can disableb break between two selectors see [options](https://github.com/jakubpawlowicz/clean-css#formatting-options)
 
@@ -54,4 +54,4 @@ reference for [here](https://github.com/jakubpawlowicz/clean-css#formatting-opti
   ```
   { }
   ```
-  ![](./images/minify.png)
+  ![](https://github.com/bestvow/css-compressor/blob/master/images/minify.png?raw=true)
