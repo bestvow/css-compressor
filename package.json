@@ -1,0 +1,75 @@
+{
+  "name": "css-compressor",
+  "displayName": "CSS Compressor",
+  "description": "Minify or Compact your CSS files",
+  "version": "0.0.1",
+  "publisher": "bestvow",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.19.0"
+  },
+  "author": {
+    "name": "bestvow",
+    "url": "https://github.com/bestvow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bestvow/css-compressor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bestvow/css-compressor/issues",
+    "email": "bestvow@foxmail.com"
+  },
+  "categories": [
+    "Formatters"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension",
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "Clean CSS",
+      "properties": {
+        "CleanCSS.options": {
+          "type": "object",
+          "default": {
+            "format": "keep-breaks",
+            "compatibility": "ie8"
+          },
+          "description": "clean options"
+        }
+      }
+    },
+    "keybindings": [
+      {
+        "command": "extension.CleanCSS",
+        "key": "shift+alt+f",
+        "when": "editorTextFocus && editorLangId == css"
+      }
+    ],
+    "commands": [
+      {
+        "command": "extension.CleanCSS",
+        "title": "CSS Compact"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "vscode": "^1.1.6",
+    "@types/node": "^7.0.43",
+    "@types/mocha": "^2.2.42"
+  },
+  "dependencies": {
+    "clean-css": "^4.1.9"
+  }
+}
