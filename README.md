@@ -47,7 +47,7 @@ reference for [here](https://github.com/jakubpawlowicz/clean-css#formatting-opti
 
   ![](https://github.com/bestvow/css-compressor/blob/master/images/beautify.png?raw=true)
 
-  yes , you can disableb break between two selectors see [options](https://github.com/jakubpawlowicz/clean-css#formatting-options)
+  yes , you can disabled break between two selectors see [options](https://github.com/jakubpawlowicz/clean-css#formatting-options)
 
 - with empty option will output minify css file
 
