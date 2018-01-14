@@ -1,6 +1,6 @@
 # CSS Compressor
 
- Clean and [Compact | Minify] your CSS files , comb the order of css attribute .
+ Clean and [Compact | Minify] your CSS files .
 
  Actually you also can Beautify your css file with option`{format: 'beautify'}`
 
