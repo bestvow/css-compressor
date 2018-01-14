@@ -16,8 +16,6 @@ icon [icons8](https://icons8.com/)
 
 Press shortcuts `shift`+`alt`+`f` to format CSS file (make sure current file you edit type is css)
 
-## Screenshot:
-
 ## Options
 reference for [here](https://github.com/jakubpawlowicz/clean-css#formatting-options)
 
