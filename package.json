@@ -2,7 +2,7 @@
   "name": "css-compressor",
   "displayName": "CSS Compressor",
   "description": "Minify or Compact your CSS files",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "bestvow",
   "icon": "icon.png",
   "engines": {
