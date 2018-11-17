@@ -64,12 +64,12 @@
     "test": "npm run compile && node ./node_modules/vscode/bin/test"
   },
   "devDependencies": {
-    "typescript": "^2.6.1",
-    "vscode": "^1.1.6",
-    "@types/node": "^7.0.43",
-    "@types/mocha": "^2.2.42"
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^7.10.1",
+    "typescript": "^2.9.2",
+    "vscode": "^1.1.21"
   },
   "dependencies": {
-    "clean-css": "^4.1.9"
+    "clean-css": "^4.2.1"
   }
 }
